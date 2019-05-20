@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alexander's Travel Company</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="header">
+			<div class="inner-header">
+				<div class="header-logo">
+					<h1><a href="index.html">Alexander's <span>Travel Company</span></a></h1>
+				</div>
+				<div id="mySidenav" class="header-links">
+					<button onclick="closeNav()"><i class="fas fa-arrow-right"></i></button>
+					<a href="package.html">Package</a>
+					<a href="about.html">About Us</a>
+					<a href="contact.html">Contact Us</a>
+				</div>
+				<div class="header-links-small">
+					<button onclick="openNav()"><i class="fas fa-bars"></i></button>
+				</div>
+			</div>
+		</div>
+		<div class="slideshow">
+			<div class="inner-slideshow">
+				<h1>Travel With Us</h1><br>
+				<h2>We provide an afforable travel package to Syndey, Australia.</h2>
+				<button type="button" onclick="window.open('package.html','_self','resizable=yes')">See our Package</button>
+			</div>
+		</div>
+		<div class="content">
+			<div class="places">
+				<div class="inner-places">
+					<i class="fas fa-map-marked-alt"></i>
+					<h1>Places We Visit:</h1>
+					<div class="places-list">
+						<div class="places-item">
+							<img src="opera-house.jpg">
+							<h2>Opera House:</h2>
+							<p>
+								The Sydney Harbour Bridge is one of Australia’s most iconic landmarks. 
+								Stunning views of the Sydney harbour  are visible from the bridge.
+							</p>
+						</div>
+						<div class="places-item">
+							<img src="harbor-bridge.jpg">
+							<h2>Harbor Bridge:</h2>
+							<p>
+								Visit one of the most distinctive and famous buildings of the 20th century 
+								and experience one of the many art performances!
+							</p>
+						</div>
+						<div class="places-item">
+							<img src="darling-harbor.jpg">
+							<h2>Darling Harbor:</h2>
+							<p>
+								Drop by one of many of the attractions at the harbour including restaurants, 
+								the  Harbourside Shopping Centre  and tours.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="package">
+				<div class="inner-package">
+					<div class="package-textbox">
+						<i class="fas fa-suitcase-rolling"></i>
+						<h1>Hotel, Flights and Tours:</h1>
+						<p>
+							The package accomodates for different group sizes.
+							Learn more by visiting our package information page.
+						</p>
+						<button type="button" onclick="window.open('package.html','_self')">Package Information</button>
+					</div>
+				</div>
+			</div>
+			<div class="comparison">
+				<div class="inner-comparison">
+					<i class="fas fa-hand-holding-usd"></i>
+					<h1>Compare Us:</h1>
+					<h2>
+						We strive to make our package affordable for tourists. 
+						Compare us to similar packages offered by others.
+					</h2>
+					<table>
+						<tr>
+							<th></th>
+							<th>Alexander's Travel Company</th>
+							<th>Expedia</th>
+							<th>Hotels.com</th>
+						</tr>
+						<tr>
+							<td>Flights<sup>1</sup></td>
+							<td>$1,650</td>
+							<td>$1,965</td>
+							<td>$1,965</td>
+						</tr>
+						<tr>
+							<td>Hotel</td>
+							<td>$169/night</td>
+							<td>$195/night</td>
+							<td>$382/night</td>
+						</tr>
+						<tr>
+							<td>Tours Included</td>
+							<td><i class="fas fa-check"></i></td>
+							<td><i class="fas fa-times"></i></td>
+							<td><i class="fas fa-times"></i></td>
+						</tr>
+						<tr>
+							<td>Package Price<sup>2</sup></td>
+							<td>$2,450</td>
+							<td>$2,740</td>
+							<td>$3,439</td>
+						</tr>
+					</table>
+					<p>1. Price for 1 adult, Roundtrip, Economy, From Toronto, ON.</p>
+					<p>2. Trip lasts 5 days. Price varies based on group size.</p>
+				</div>
+			</div>
+			<div class="book">
+				<div class="inner-book">
+					<div class="book-left">
+						<h1>Interested?</h1>
+						<p>Contact us and book your adventure today!</p>
+						<button type="button" onclick="window.open('contact.html','_self','resizable=yes')">Book Your Trip</button>
+					</div>
+					<div class="book-right">
+						<img src="opera-house-2.jpg">
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="inner-footer">
+				<div class="footer-social">
+					<div class="footer-social-item"><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></div>
+					<div class="footer-social-item"><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></div>
+					<div class="footer-social-item"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></div>
+					<div class="footer-social-item"><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></div>
+					<div class="footer-social-item"><a href="https://www.pinterest.com"><i class="fab fa-pinterest"></i></a></div>
+				</div>
+				<div class="footer-copyright">
+					<div>Copyright &copy; 2019 Alexander Kaminsky. All rights reserved.</div>
+				</div>
+			</div>
+		</div>
+	</body>
+	<script>
+	function openNav() {
+		document.getElementById("mySidenav").classList.add("header-links-menu");
+	}
+
+	function closeNav() {
+		document.getElementById("mySidenav").classList.remove("header-links-menu");
+	}
+	</script>
+</html>

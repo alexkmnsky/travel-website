@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Alexander's Travel Company - About Us</title>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="about.css">
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+	</head>
+	<body>
+		<div class="header">
+			<div class="inner-header">
+				<div class="header-logo">
+					<h1><a href="index.html">Alexander's <span>Travel Company</span></a></h1>
+				</div>
+				<div id="mySidenav" class="header-links">
+					<button onclick="closeNav()"><i class="fas fa-arrow-right"></i></button>
+					<a href="package.html">Package</a>
+					<a href="about.html">About Us</a>
+					<a href="contact.html">Contact Us</a>
+				</div>
+				<div class="header-links-small">
+					<button onclick="openNav()"><i class="fas fa-bars"></i></button>
+				</div>
+			</div>
+		</div>
+		<div class="content">
+			<div class="about">
+				<div class="about-title">
+					<h1>About Us:</h1>
+					<h2>A little about what we do.</h2>
+				</div>
+			</div>
+			<div class="what-we-do">
+				<div class="inner-what-we-do">
+					<div class="what-we-do-container">
+						<div class="what-we-do-left">
+							<i class="far fa-question-circle"></i>
+							<h1>What We Do:</h1>
+							<p>
+								We strive to provide you the best possible price for your adventure—you can compare us to our competitors. 
+								Our company provides a travel package to Sydney, Australia.
+								Alexander's Travel Company is a company based in Toronto, Ontario founded in 2019.
+							</p>
+						</div>
+						<div class="what-we-do-right">
+							<img src="map-planning.jpg">
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="testimonials">
+				<div class="inner-testimonials">
+					<i class="fas fa-comments"></i>
+					<h1>Testimonials:</h1>
+					<p>
+						Hear what our customers have to say!
+					</p>
+					<div class="testimonials-list">
+						<div class="testimonials-item">
+							<h2>"Alexander's Travel Company offered the best price on the market and saved me over $500!"</h2>
+							<h3>- Grace A. Durham (Customer)</h3>
+						</div>
+						<div class="testimonials-item">
+							<h2>"Thanks to Alexander's Travel Company, I was able to save on travel."</h2>
+							<h3>- Jacob L. Kelton (Customer)</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="inner-footer">
+				<div class="footer-social">
+					<div class="footer-social-item"><a href="https://www.facebook.com"><i class="fab fa-facebook-square"></i></a></div>
+					<div class="footer-social-item"><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></div>
+					<div class="footer-social-item"><a href="https://www.instagram.com"><i class="fab fa-instagram"></i></a></div>
+					<div class="footer-social-item"><a href="https://www.youtube.com"><i class="fab fa-youtube"></i></a></div>
+					<div class="footer-social-item"><a href="https://www.pinterest.com"><i class="fab fa-pinterest"></i></a></div>
+				</div>
+				<div class="footer-copyright">
+					<div>Copyright &copy; 2019 Alexander Kaminsky. All rights reserved.</div>
+				</div>
+			</div>
+		</div>
+		<script>
+			function openNav() {
+				document.getElementById("mySidenav").classList.add("header-links-menu");
+			}
+		
+			function closeNav() {
+				document.getElementById("mySidenav").classList.remove("header-links-menu");
+			}
+		</script>
+	</body>
+</html>
