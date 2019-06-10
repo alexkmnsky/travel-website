@@ -41,7 +41,7 @@ sub {
 	z-index: 1;
 	display: flex;
 	width: 100%;
-	height: 50px;
+	height: 80px;
 	background-color: #333;
 	position: -webkit-sticky; /* Safari */
 	position: sticky;
@@ -62,13 +62,11 @@ sub {
 	height: 100%;
 	align-items: center;
 	color: white;
-	font-family: 'Segoe UI';
-	font-size: 12px;
 	transition: 0.3s ease-in-out;
 }
 
-.header-logo span{
-	font-weight: 100;
+.header-logo img{
+	height: 60px;
 }
 
 .header-logo a{

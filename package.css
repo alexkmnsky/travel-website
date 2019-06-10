@@ -70,6 +70,48 @@
 	font-size: 18px;
 }
 
+.hotel-container{
+	width: 90%;
+	max-width: 1000px;
+	min-height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap-reverse;
+	flex: 1;
+	justify-content: center;
+	align-items: stretch;
+	margin: auto;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.hotel-left{
+	display: flex;
+	width: 500px;
+	min-height: 100%;
+	flex-direction: column;
+	justify-content: center;
+	padding-top: 40px;
+}
+
+.hotel-left p{
+	font-family: 'Segoe UI';
+	color: #555;
+	font-size: 20px;
+}
+
+.hotel-right{
+	display: flex;
+	width: 500px;
+	flex-direction: column;
+}
+
+.hotel-right img{
+	width: 100%;
+	border-radius: 10px;
+	box-shadow: 0px 0px 5px #999;
+}
+
 .hotels-list{
 	display: flex;
 	flex-direction: row;
